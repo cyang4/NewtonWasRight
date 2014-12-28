@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 22: expected statement.
-    clear
-         ^
+File "game/screens.rpy", line 165: u's' is not a keyword argument or valid child for the text statement.
+    text caption style "nvl_dialogue"s
+                                      ^
 
 Ren'Py Version: Ren'Py 6.18.3.761

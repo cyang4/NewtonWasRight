@@ -28,7 +28,7 @@ init -1 python hide:
     # These control the name and version of the game, that are reported
     # with tracebacks and other debugging logs.
     config.name = "complexbound"
-    config.version = "0.1"
+    config.version = "0.0"
 
     #########################################
     # Themes
@@ -270,7 +270,7 @@ init -1 python hide:
 
     ## The default text speed in characters per second. 0 is infinite.
 
-    config.default_text_cps = 20
+    config.default_text_cps = 0
 
     ## The default auto-forward time setting.
 

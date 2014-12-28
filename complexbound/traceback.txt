@@ -1,35 +1,33 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 18, in script
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-  File "renpy/common/00nvl_mode.rpy", line 264, in do_display
-    page = self.clear or nvl_clear_next()
-  File "renpy/common/00nvl_mode.rpy", line 226, in nvl_clear_next
-    scry = scry.next()
-AttributeError: 'StoreModule' object has no attribute 'n'
+ScriptError: could not find label 'start'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 18, in script
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-  File "/home/cecille/renpy-6.18.3-sdk/renpy/ast.py", line 593, in execute
-    renpy.exports.say(who, what, interact=self.interact)
-  File "/home/cecille/renpy-6.18.3-sdk/renpy/exports.py", line 999, in say
-    who(what, interact=interact)
-  File "/home/cecille/renpy-6.18.3-sdk/renpy/character.py", line 826, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, **display_args)
-  File "renpy/common/00nvl_mode.rpy", line 264, in do_display
-    page = self.clear or nvl_clear_next()
-  File "renpy/common/00nvl_mode.rpy", line 226, in nvl_clear_next
-    scry = scry.next()
-  File "/home/cecille/renpy-6.18.3-sdk/renpy/ast.py", line 297, in next
-    return self._next.scry()
-  File "/home/cecille/renpy-6.18.3-sdk/renpy/ast.py", line 630, in scry
-    who = getattr(renpy.store, self.who)
-AttributeError: 'StoreModule' object has no attribute 'n'
+  File "renpy/common/_layout/screen_main_menu.rpym", line 29, in script
+    $ ui.interact()
+  File "C:\Users\Errica\Documents\renpy-6.18.3-sdk\renpy\ast.py", line 785, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Errica\Documents\renpy-6.18.3-sdk\renpy\python.py", line 1382, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "renpy/common/_layout/screen_main_menu.rpym", line 29, in <module>
+    $ ui.interact()
+  File "C:\Users\Errica\Documents\renpy-6.18.3-sdk\renpy\ui.py", line 247, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\Errica\Documents\renpy-6.18.3-sdk\renpy\display\core.py", line 2149, in interact
+    repeat, rv = self.interact_core(preloads=preloads, **kwargs)
+  File "C:\Users\Errica\Documents\renpy-6.18.3-sdk\renpy\display\core.py", line 2591, in interact_core
+    result = prediction_coroutine.send(expensive_predict)
+  File "C:\Users\Errica\Documents\renpy-6.18.3-sdk\renpy\display\predict.py", line 119, in prediction_coroutine
+    for _i in renpy.game.context().predict():
+  File "renpy/common/_layout/screen_main_menu.rpym", line 29, in script
+    $ ui.interact()
+  File "C:\Users\Errica\Documents\renpy-6.18.3-sdk\renpy\script.py", line 595, in lookup
+    raise ScriptError("could not find label '%s'." % str(label))
+ScriptError: could not find label 'start'.
 
-Linux-3.13.0-43-generic-x86_64-with-debian-jessie-sid
+Windows-7-6.1.7601-SP1
 Ren'Py 6.18.3.761
-complexbound 0.0
+complexbound 0.1
