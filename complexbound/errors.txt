@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/dayone.rpy", line 53: expected statement.
-    ump DayOneKentin
-                    ^
+File "game/dayone.rpy", line 180: expected statement.
+    nvl cler
+       ^
 
 Ren'Py Version: Ren'Py 6.18.3.761

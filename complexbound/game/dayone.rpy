@@ -1,4 +1,4 @@
-label DayOneEve:
+label DayOneEve1:
     scene eveRoom
     narrator "Eve Rosborough could dimly hear the pattering of rain against her bedroom window and instinctively curled up tighter in her cocoon of blankets."
     narrator "It was a losing battle, though, as she knew all too well. "
@@ -6,8 +6,8 @@ label DayOneEve:
     nvl clear
     narrator "She was supposed to work on the treehouse with her dad today, but the weather would definitely act as an excuse for him.{w} She'd been bugging him for weeks, but he always managed to find a way out of it."
     narrator "Last time, he was apparently worried about the end of the world or some weird thing like that."
-    nvl clear
     narrator "Aside from the rather dreary exterior, it was about 99\% impossible for there to have been an apocalypse on that day.{w} The trees were quite alive, her room was perfectly organized using her methodical categorization technique (which will be covered shortly), and her bane of a laptop was on. "
+    nvl clear
     narrator "In fact, there was a new message waiting for her on the new messaging client she'd been using for the past few days.{w} It was strange - instead of any way to add buddies, she could only press the blue \"chat\" button and randomly encounter someone.{w} More often than not, they wrote in languages she couldn't understand, most likely since she could only speak English and, well, the rest of the world had many more interesting and beautiful languages to offer."
     narrator "Not that she hated English. She just hated language in general. It was so...{w} constraining, unlike {i}doing{/i}."
     nvl clear
@@ -51,9 +51,9 @@ label DayOneEve:
     narrator "And then she noticed."
     narrator "The doormat was there, but in the place of the main entrance door was a stretch of white wall."
     nvl clear
-    jump DayOneKentin
+    jump DayOneKentin1
     
-label DayOneKentin:
+label DayOneKentin1:
     scene rooftop with fade
     narrator "Kentin Banister disliked sleeping."
     narrator "Actually, he didn't really dislike it.{w} He just found explosives much, {i}much{/i} more interesting.{w} Of course, his dearest parental figures would never allow him to be near any explosives apart from fireworks.{w} Nor did they know of his obsession with explosives. They simply thought of it as his way of trying to inherit the family company, something that would most certainly happen."
@@ -91,7 +91,7 @@ label DayOneKentin:
     galatea "Well... Basically, I'm REALLY scared!"
     galatea "I don't know where my parents are... My sister's gone missing..."
     galatea "AND ALL THE DOORS ARE GONE!!!!!"
-    pygmalion "Why does that sound familiar?"
+    pygmalion "That sounds disturbingly familiar."
     galatea " ∑(O_O；) !!!!"
     galatea "IS THE SAME THING HAPPENING TO YOU???"
     galatea "MAYBE I'M NOT ALONE!!!!!"
@@ -99,7 +99,91 @@ label DayOneKentin:
     narrator "-- {color=#c00000}{b}Pygmalion{/b}{/color} has logged off. --"
     nvl clear
     narrator "At that point, Kentin decided that this Galatea was a bit odd and made his head hurt, so he pressed the \"END CHAT\" button and rubbed his sore eyes."
-    narrator "A bit?{w} No, they were most certainly insane."
+    narrator "A bit?{w} No, they were most certainly {i}very{/i} odd."
     narrator "Getting up and watching the city again, Kentin realized that his parents wouldn't be coming home soon.{w} So, he decided to make a proper breakfast."
+    nvl clear
+    jump DayOneChadwick1
+    
+label DayOneChadwick1:
+    scene waitwut with fade
+    narrator "Chadwick Baptiste had been at it since the break of day.{w} He hadn't been able to enjoy his morning crepes and fresh-cut strawberries, or the delightfully drizzly day, or even the fact that he could now talk anonymously with so many wonderful ladies through the miraculous chat client.{w} It was a disaster of a day, the absolute worst he'd had in a long time."
+    narrator "And that was coming from a seasoned thespian."
+    narrator "His parents, first off, were gone. They were always lingering around the house in the mornings, urging him to get out of his grooming parlour so he wouldn't be tardy for academy. He never was tardy, as that was not his taste, not that his simple-minded guardians ever registered the fact."
+    narrator "Besides, his grooming ritual should never be interrupted, as it would lead to dire circumstances.{w} God forbid, one of the fine ladies of the world would reject him for a stray hair or an unmoisturized face.{w} It was the little things that counted."
+    nvl clear
+    narrator "Taking a sip of his quickly cooling Earl Grey tea, Chadwick pressed the blue chat button once more, hoping that his next recipient would at least speak a language he understood.{w} The past few attempts had been in vain and even {i}he{/i} had gotten tired of typing out the same words over and over.{w} He was embarrassed to admit that the much-feared ctrl-c shortcut was being employed."
+    narrator "\"Well, here I go, plunging triumphantly into yet another meaningless exchange with what may or may not be an esteemed ladyfolk,\" he mumbled to himself."
+    nvl clear
+    narrator "-- {color=#004000}{b}Narcissus{/b}{/color} began chatting with {color=#000040}{b}Daedalus{/b}{/color}. --"
+    narrator "O no, he'd forgotten his absolutely horrendous screen name.{w} How the client established these meaningless references to Greek mythology, he could not comprehend.{w} How was he alike to Narcissus?{w} Aside from their grooming habits, how was Chadwick Baptiste even slightly reminiscent of this self-absorbed lunatic who rejected such a persistent little nymph?{w} Chadwick Baptiste may be a slew of disagreeable terms to some, but Chadwick Baptiste would never hurt someone like that Narcissus chap."
+    narrator "O dear, he was beginning to sound like that Backstreet Boys melody.{w} Rather, most of their songs sounded alike. It would be more accurate to state that he was beginning to sound like the Backstreet Boys themselves."
+    narrator "On a far more pressing matter, he recognized the screen name.{w} A few hours ago, that same chap had sent him a good lot of horrendously formed French phrases as well as a strange-sounding Chinese threat.{w} He was tempted to disconnect immediately, but none of his other chat logs had yielded any progress.{w} He might as well try aga--"
+    nvl clear
+    daedalus "shet you were right"
+    daedalus "why the frick am i daedalus"
+    daedalus "this chat client is a pile of shet"
+    daedalus "youre the shakespeare guy right"
+    nvl clear
+    narrator "It seemed that English was not Daedalus' particular forte, either. At least this time, he seemed rather comprehensible.{w} Chadwick was rather convinced that Daedalus was a male, as ladies would never use such lewd language."
+    nvl clear
+    narcissus "If you are referring to me as the gentleman with fine grammar and English facility, I would agree. I daresay I could not call myself the Bard himself, although I do strive to be him ever so. "
+    narcissus "Sometimes, I retire for bed with thoughts of this most excellent man in my mind. It does please me to be compared to such a saint."
+    nvl clear
+    narrator "Why in the world did he send that?{w} Why.{w} In.{w} The.{w} World."
+    narrator "It was too late to revise, though, so he swallowed the fact that he had knowingly revealed one of his most private thoughts with the distinct knowledge that he would probably never meet Daedalus in real life.{w} O what comfort it brought him, o what ceaseless joy!"
+    nvl clear
+    narcissus "But you did reference my accuracy. Are you in fact stranded as I am?"
+    daedalus "the doors are gone and my folks are nowhere"
+    daedalus "but"
+    daedalus "i think its raining or whatever"
+    daedalus "so this is far from tartarus"
+    daedalus "we are definitely"
+    daedalus "alive because"
+    daedalus "i have feelings"
+    nvl clear
+    narcissus "Alas, as do I. It is good to finally have found a common bonding ground, my man. However, what is to say that these feelings that fill us to the brim are only fabrications a malevolent dictator sent forth to keep us contained within our door-less prisons? What if this is all to trap us here, where we can not progress yet we have contact with these anonymous Greek mythological character screen-names? We will constantly know that there is an outside world, yet we can never reach it. Our faith is rested solely on this atrocious chat client."
+    daedalus "i call bs"
+    daedalus "we are alive and we just need to find another way to leave"
+    daedalus "where are you anyways"
+    narcissus "I reside on the tenth floor of an expansive apartment in Hollis."
+    daedalus "hollis ma"
+    nvl clear
+    narcissus "Assuming that you still lack the proper motor function to insert any punctuation, I will take your post to mean a question. Indeed, Hollis, MA."
+    daedalus "frick me too"
+    narcissus "O the coincidence! Perhaps we are in one and the same apartment."
+    daedalus "freck no hollis is huge and i am not telling you where i live"
+    daedalus "you stalker"
+    narcissus "Then I will simply inform you that I reside in the Monument Suites. Since we lack doors, there is no way we may get to one another. I will consider you safe."
+    daedalus "logical but you can definitely get out without doors"
+    daedalus "like the fire escape you have by your window probably"
+    narcissus "You live in Monument as well! I might have guessed as much!"
+    nvl clear
+    daedalus "doofus every apartment has a fire escape near most windows"
+    daedalus "because saving people"
+    daedalus "from fires"
+    daedalus "screw this im leaving now"
+    narcissus "WAIT"
+    daedalus "what"
+    narcissus "I apologize for yelling at you through text. There are others in the apartment who still exist, I believe. I had talked to one of them before. She was the only one who would talk to me, yet I mistakenly exited the chat and now I can't seem to find her."
+    daedalus "oh yeah the random chat thing"
+    daedalus "it sucks shet"
+    narcissus "We should find her before we leave."
+    nvl clear
+    daedalus "you do that im leaving"
+    narcissus "O no you don't. I will watch out my fire escape and snatch any such lad who comes my way."
+    narcissus "And that did not mean to sound so suggestive."
+    daedalus "hah haha i live on the eighth floor dumbaxe so i wont be coming your way any time soon"
+    daedalus "coming"
+    daedalus "haha get it"
+    narcissus "You are utterly disgusting."
+    narcissus "However, you should know that I was twisting the truth a bit when I said I reside on the tenth floor. You see, I do reside on the tenth floor, but my family also owns a private suite on the fifth floor, where I am currently sending you these messages."
+    nvl clear
+    narcissus "So, trying to put this in a much less suggestive manner, you will surely be moving with a forward direction toward my fire exit on your way to the bottom, whether you like it or not."
+    daedalus "freck"
+    narrator "-- {color=#000040}{b}Daedalus{/b}{/color} has logged off. --"
+    nvl clear
+    narrator "That exchange was unpleasant, to say the least. Chadwick pressed the chat button again, hoping to find the lady he had been talking to earlier."
+    narrator "And this time, pleasantly, he got lucky."
+    narrator "-- {color=#004000}{b}Narcissus{/b}{/color} began chatting with {color=#00ff80}{b}Galatea{/b}{/color}. --"
     
     return

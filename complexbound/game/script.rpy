@@ -8,6 +8,7 @@ image windowOpen = "window2.png"
 image rooftop = "rooftop.jpg"
 image eveRoom = "everoom.jpg"
 image kentinRoom = "bedroom-3.png"
+image waitwut = "chadwick/dining_room.png"
 
 # Declare characters used by this game.
 define narrator = Character(None, what_color="#ffffff", kind=nvl)
@@ -27,4 +28,4 @@ define medusa = Character('Medusa', color="#6B238E", what_color="#ffffff", kind=
 
 # The game starts here.
 label start:
-    jump DayOneEve
+    jump DayOneEve1
